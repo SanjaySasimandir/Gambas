@@ -52,6 +52,7 @@
   }
   { TextBox1 TextBox
     MoveScaled(5,5,54,17)
+    Font = Font["Bold"]
   }
   { Button13 Button
     MoveScaled(5,54,12,6)
@@ -70,11 +71,7 @@
     Text = ("=")
   }
   { Button17 Button
-    MoveScaled(47,23,5,6)
-    Text = ("(")
-  }
-  { Button18 Button
-    MoveScaled(54,23,5,6)
-    Text = (")")
+    MoveScaled(47,23,12,6)
+    Text = ("%")
   }
 }

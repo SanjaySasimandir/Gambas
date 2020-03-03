@@ -3,70 +3,79 @@
 { Form Form
   MoveScaled(0,0,64,64)
   { Button1 Button
-    MoveScaled(5,27,12,6)
+    MoveScaled(5,30,12,6)
     Text = ("1")
   }
   { Button2 Button
-    MoveScaled(19,27,12,6)
+    MoveScaled(19,30,12,6)
     Text = ("2")
   }
   { Button3 Button
-    MoveScaled(33,27,12,6)
+    MoveScaled(33,30,12,6)
     Text = ("3")
   }
   { Button4 Button
-    MoveScaled(47,27,12,6)
+    MoveScaled(47,30,12,6)
     Text = ("+")
   }
   { Button5 Button
-    MoveScaled(5,35,12,6)
+    MoveScaled(5,38,12,6)
     Text = ("4")
   }
   { Button6 Button
-    MoveScaled(19,35,12,6)
+    MoveScaled(19,38,12,6)
     Text = ("5")
   }
   { Button7 Button
-    MoveScaled(33,35,12,6)
+    MoveScaled(33,38,12,6)
     Text = ("6")
   }
   { Button8 Button
-    MoveScaled(47,35,12,6)
+    MoveScaled(47,38,12,6)
     Text = ("-")
   }
   { Button9 Button
-    MoveScaled(5,43,12,6)
+    MoveScaled(5,46,12,6)
     Text = ("7")
   }
   { Button10 Button
-    MoveScaled(19,43,12,6)
+    MoveScaled(19,46,12,6)
     Text = ("8")
   }
   { Button11 Button
-    MoveScaled(33,43,12,6)
+    MoveScaled(33,46,12,6)
     Text = ("9")
   }
   { Button12 Button
-    MoveScaled(47,43,12,6)
+    MoveScaled(47,46,12,6)
     Text = ("Clear")
   }
   { TextBox1 TextBox
     MoveScaled(5,5,54,17)
+    Font = Font["Bold"]
   }
   { Button13 Button
-    MoveScaled(5,51,12,6)
+    MoveScaled(5,54,12,6)
     Text = ("*")
   }
   { Button14 Button
-    MoveScaled(19,51,12,6)
+    MoveScaled(19,54,12,6)
     Text = ("0")
   }
   { Button15 Button
-    MoveScaled(33,51,12,6)
+    MoveScaled(33,54,12,6)
     Text = ("/")
   }
   { Button16 Button
-    MoveScaled(47,51,12,6)
+    MoveScaled(47,54,12,6)
     Text = ("=")
+  }
+  { Button17 Button
+    MoveScaled(47,23,5,6)
+    Text = ("%")
+  }
+  { Button18 Button
+    MoveScaled(54,23,5,6)
+    Text = (")")
   }
 }
