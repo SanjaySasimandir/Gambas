@@ -1,0 +1,145 @@
+' Gambas class file
+
+Private a As Single
+Private b As Single
+Private add As Single
+Private multiply As Single
+Private subtract As Single
+Private divide As Single
+
+Public Sub Button6_Click()
+TextBox1.Text = TextBox1.Text & "5"
+  
+
+End
+
+Public Sub TextBox1_KeyPress()
+
+  
+
+End
+
+Public Sub Button1_Click()
+
+  TextBox1.Text = TextBox1.Text & "1"
+
+End
+
+Public Sub Button2_Click()
+
+  TextBox1.Text = TextBox1.Text & "2"
+
+End
+
+Public Sub Button3_Click()
+
+  TextBox1.Text = TextBox1.Text & "3"
+
+End
+
+Public Sub Button5_Click()
+
+  TextBox1.Text = TextBox1.Text & "4"
+
+End
+
+Public Sub Button7_Click()
+
+  TextBox1.Text = TextBox1.Text & "6"
+
+End
+
+Public Sub Button9_Click()
+
+  TextBox1.Text = TextBox1.Text & "7"
+
+End
+
+Public Sub Button10_Click()
+
+  TextBox1.Text = TextBox1.Text & "8"
+
+End
+
+Public Sub Button11_Click()
+
+  TextBox1.Text = TextBox1.Text & "9"
+
+End
+
+Public Sub Button14_Click()
+
+  TextBox1.Text = TextBox1.Text & "0"
+
+End
+
+Public Sub Button4_Click()
+  add = 1
+  a = Val(TextBox1.Text)
+  TextBox1.Clear
+  
+
+End
+
+Public Sub Button16_Click()
+
+  Private b As Single = Val(TextBox1.Text)
+  If add = 1
+    TextBox1.Text = a + b
+    Endif
+  If subtract = 1
+    TextBox1.Text = a - b
+    Endif
+  If multiply = 1
+    TextBox1.Text = a * b
+    Endif
+  If divide = 1
+    TextBox1.Text = a / b
+    Endif
+
+End
+
+Public Sub Button8_Click()
+
+  subtract = 1
+  Dim a As Integer = Val(TextBox1.Text)
+  TextBox1.Clear
+
+End
+
+Public Sub Button13_Click()
+
+  multiply = 1
+  Dim a As Integer = Val(TextBox1.Text)
+  TextBox1.Clear
+
+End
+
+Public Sub Button15_Click()
+
+  divide = 1
+  Dim a As Integer = Val(TextBox1.Text)
+  TextBox1.Clear
+
+End
+
+Public Sub Button12_Click()
+
+  a = 0
+  b = 0
+  
+  TextBox1.Clear
+
+End
+
+Public Sub Button17_Click()
+
+  TextBox1.Text = TextBox1.Text & "("
+
+End
+
+Public Sub Button18_Click()
+
+  TextBox1.Text = TextBox1.Text & ")"
+
+End
